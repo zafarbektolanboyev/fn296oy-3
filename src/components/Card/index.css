@@ -1,0 +1,56 @@
+.movie {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.movieSection__container {
+  margin-top: 10px;
+  padding-top: 20px;
+  background-color: gainsboro;
+  height: 100%;
+  padding-bottom: 50px;
+}
+.card {
+  cursor: pointer;
+  width: 520px;
+  height: 800px;
+  padding: 10px;
+  background-color: rgb(233, 232, 232);
+  border-radius: 5px;
+}
+.card img {
+  border-radius: 5px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.year-reyting,
+.time,
+.language {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  color: rgb(133, 132, 132);
+}
+.title {
+  font-size: 20px;
+  color: rgb(68, 68, 68);
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 5px 12px;
+}
